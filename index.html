@@ -1,11 +1,69 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>FutureTech</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>FutureTech Coop</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
 </head>
 <body>
-    
+  <header>
+    <div class="logo">Future<span>Tech</span></div>
+    <nav>
+      <a href="#home">Home</a>
+      <a href="#about">About</a>
+      <a href="#services">Services</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <section class="hero" id="home">
+    <h1>We Build Digital Futures</h1>
+    <p>Empowering through Tech, Innovation, and Education</p>
+    <a href="#services" class="btn">Explore More</a>
+  </section>
+
+  <section id="about" class="about">
+    <h2>Who We Are</h2>
+    <p>FutureTech is a Moroccan cooperative at the forefront of digital transformation. We provide smart solutions in tech, AI, training, and digital innovation.</p>
+  </section>
+
+  <section id="services" class="services">
+    <h2>Our Services</h2>
+    <div class="cards">
+      <div class="card">
+        <i class="fas fa-robot"></i>
+        <h3>AI & Innovation</h3>
+        <p>AI tools, automation & modern problem solving.</p>
+      </div>
+      <div class="card">
+        <i class="fas fa-laptop-code"></i>
+        <h3>Software Solutions</h3>
+        <p>Custom apps, websites & business platforms.</p>
+      </div>
+      <div class="card">
+        <i class="fas fa-chalkboard-teacher"></i>
+        <h3>Digital Training</h3>
+        <p>Empowering people with practical digital skills.</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="contact" class="contact">
+    <h2>Contact Us</h2>
+    <form id="contactForm">
+      <input type="text" placeholder="Your Name" required />
+      <input type="email" placeholder="Your Email" required />
+      <textarea placeholder="Your Message" rows="5" required></textarea>
+      <button type="submit">Send Message</button>
+    </form>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 FutureTech Coop | <a href="https://www.instagram.com/coopfuturetech/" target="_blank"><i class="fab fa-instagram"></i> Instagram</a></p>
+  </footer>
+
+  <script src="script.js"></script>
 </body>
 </html>
